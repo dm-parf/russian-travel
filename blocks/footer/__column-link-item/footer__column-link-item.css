@@ -1,0 +1,15 @@
+.footer__column-link-item{
+    list-style-type: none;
+    margin-left: 18px;
+}
+
+.footer__column-link-item:first-of-type{
+    margin-left: 0;
+}
+
+@media screen and (max-width: 767px){
+    .footer__column-link-item{
+        margin-left: 0;
+        margin-bottom: 32px;
+    }
+  }

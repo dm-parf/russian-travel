@@ -1,0 +1,23 @@
+.lead{
+    margin: 56px 148px 92px;
+    flex-direction: column;
+    transition: margin 0.5s ease;
+}
+
+@media screen and (max-width: 1279px){
+    .lead {
+        margin: 48px 48px 92px;
+    }
+}
+
+@media screen and (max-width: 1023px){
+    .lead {
+        margin: 48px 0 88px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .lead {
+        margin: 48px 0 64px;
+    }
+}
