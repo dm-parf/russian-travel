@@ -5,4 +5,9 @@
     text-decoration-line: underline;
     text-underline-position: under;
     color: #FFFFFF;
+    transition: opacity 1s linear;
 }
+
+.place__link:hover{
+    opacity: 0.5;
+  }
